@@ -32,9 +32,15 @@ body {
   background-color: var(--mat-sys-surface);
   color: var(--mat-sys-on-surface);
   font: var(--mat-sys-body-medium);
+  font-family:Roboto;
 
   // Reset the user agent margin.
   margin: 0;
   height: 100%;
 }
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
